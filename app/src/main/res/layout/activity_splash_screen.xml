@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Mt"
+    android:layout_gravity="center"
+    tools:context=".SplashScreen">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+       android:layout_marginStart="80dp"
+        android:layout_marginTop="195dp"
+        android:id="@+id/animation_view"
+        app:lottie_rawRes="@raw/splash"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather App"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="110dp"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

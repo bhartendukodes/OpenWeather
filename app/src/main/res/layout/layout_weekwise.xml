@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="16dp"
+    android:background="#232634">
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Monday"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/tvHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25\u00B0"
+        android:layout_marginStart="16dp"
+        android:textSize="22dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvLow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25\u00B0"
+        android:layout_marginStart="16dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivConditional"
+        android:layout_width="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_13d"
+    />
+</androidx.appcompat.widget.LinearLayoutCompat>
